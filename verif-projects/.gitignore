@@ -1,0 +1,31 @@
+# Vivado / Xilinx
+*.jou
+*.log
+*.pb
+*.str
+*.wdb
+*.xpr
+*.xsa
+.Xil/
+vivado*
+webtalk*
+*.vcd
+*.vpd
+
+# Questa / VCS
+work/
+transcript
+*.wlf
+*.vstf
+csrc/
+simv*
+DVEfiles/
+*.daidir
+
+# General
+*.bak
+*~
+*.swp
+*.tmp
+__pycache__/
+*.pyc
