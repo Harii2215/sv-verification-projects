@@ -1,53 +1,26 @@
-# SystemVerilog Verification Projects (Beginner)
+# SystemVerilog Verification Projects
 
-A clean, beginner-friendly collection of basic verification projects written in SystemVerilog.
+A collection of SystemVerilog verification projects ranging from beginner to intermediate/advanced level.
 
 ## Projects Included
 
-1. **4-bit Adder** – Simple combinational DUT with directed + random testbench
-2. **Synchronous FIFO** – Classic verification example with full testbench
+| Project   | Level          | Description                                              |
+|-----------|----------------|----------------------------------------------------------|
+| Adder     | Beginner       | 4-bit combinational adder                                |
+| FIFO      | Beginner       | Synchronous FIFO (depth=8)                               |
+| Counter   | Intermediate   | 8-bit loadable up/down counter                           |
+| ALU       | Intermediate+  | 32-bit ALU with 8 operations + functional coverage       |
+| DFF       | Intermediate   | D Flip-Flop with layered testbench (Gen-Drv-Mon-Scoreboard) |
 
-## Repository Structure
+Each project folder contains:
+- Full DUT + Testbench code
+- Detailed README with explanations
+- Simulation instructions (Vivado)
 
-```
-verif-projects/
-├── README.md
-├── .gitignore
-├── adder/
-│   ├── README.md
-│   ├── dut/adder.sv
-│   ├── tb/tb_adder.sv
-│   └── sim/ (Vivado run instructions)
-└── fifo/
-    ├── README.md
-    ├── dut/fifo.sv
-    ├── tb/tb_fifo.sv
-    └── sim/ (Vivado run instructions)
-```
+## How to Use
 
-## How to Use This Repo
-
-Each project folder contains its own `README.md` with:
-- Design description
-- Full source code
-- Step-by-step simulation instructions for **Vivado**
-- What to observe / expected results
-
-## Getting Started (GitHub)
-
-```bash
-# 1. Create a new repo on GitHub called "sv-verification-projects"
-# 2. Clone it locally
-git clone https://github.com/<your-username>/sv-verification-projects.git
-cd sv-verification-projects
-
-# 3. Copy the contents from this workspace into your local repo
-# 4. Commit and push
-git add .
-git commit -m "Initial commit: Adder + FIFO verification projects"
-git push -u origin main
-```
+See individual project READMEs.
 
 ---
 
-**Next steps**: Open the individual project READMEs inside `adder/` and `fifo/`.
+**Note**: All projects are designed for learning SystemVerilog verification from beginner to intermediate level. This repository was built progressively between May–June 2026.
