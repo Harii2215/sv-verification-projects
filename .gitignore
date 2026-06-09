@@ -1,0 +1,38 @@
+# Vivado-specific files
+*.pb
+*.wdb
+*.jou
+*.log
+*.backup.*
+
+# Simulation output
+work/
+transcript
+vsim.wdb
+*.shm
+*.ghw
+*.vcd
+
+# IDE and build artifacts
+.Xil/
+.metadata/
+.DS_Store
+*.o
+*.a
+*.so
+
+# Vivado project files
+*.xpr
+*.xpr.bak
+.git/
+.gitignore_old
+
+# Temporary files
+*.tmp
+*~
+.vscode/
+
+# Generated files
+*.dcp
+*.edf
+*.ngc
